@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #C5CBD3;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name{
+    background-color: #8D6A9F;
+    font-size: 3.5vw;
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3vw;
+}
+.icon-line1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-line2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-rock{
+    background-image: url("rock.png");
+    background-size: contain;
+    background-color: #AD8A64;
+}
+.icon-paper{
+    background-image: url("paper.png");
+    background-size: contain;
+    margin-left: 1vw;
+    background-color: #F6F2FF;
+
+}
+.icon-scissor{
+    background-image: url(scissor.png);
+    background-size: contain;
+    margin-right: 1vw;
+    background-color: #FCFDAF;
+}
+.icon-box{
+    width: 15vw;
+    height: 12.5vw;
+    border-radius: 50%;
+    border: 0.4vw solid #C5CBD3;
+}
+.icon-box:hover{
+    border: 0.4vw solid black;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.count-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #131a22;
+    color: #fff;
+    border-radius: 10px;
+    width: 5vw;
+    height: 5vw;
+}
+.count-count{
+    font-size: 2.2vw;
+    padding: 0.2vw;
+    background-color: #131a22;
+    font-weight: 550;
+}
+.count-tex{
+    font-size: 1vw;
+    padding: 0.2vw;
+    background-color: #131a22;
+}
+.count-you{
+    margin-right: 2vw;
+}
+
+.result{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result-btn{
+    background-color: #FFD166;
+    border-radius: 10px;
+    padding: 0.5vw 1vw;
+    font-size: 1.5vw;
+    color: #fff;
+    font-weight: 550;
+}
+/* 2A4D14
+F03A47
+ */
